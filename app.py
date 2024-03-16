@@ -9,6 +9,7 @@ from haystack import Pipeline
 from haystack.components.builders.prompt_builder import PromptBuilder
 import gradio as gr
 import time
+import streamlit as st
 
 load_dotenv()
 
