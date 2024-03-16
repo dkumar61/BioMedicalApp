@@ -12,7 +12,7 @@ import time
 
 load_dotenv()
 
-os.environ['HUGGINGFACE_API_KEY'] = os.getenv('HUGGINGFACE_API_KEY')
+os.environ['HUGGINGFACE_API_KEY'] = st.secrets['HUGGINGFACE_API_KEY']
 
 
 pubmed = PubMed(tool="Haystack2.0Prototype", email="dummyemail@gmail.com")
